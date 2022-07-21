@@ -1,0 +1,35 @@
+/* Used fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+body {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+}
+/* main */
+main {
+  width: 1321px;
+  display: flex;
+  justify-content: center;
+}
+/* Header Style */
+header {
+  display: flex;
+  background-color: rgb(19, 18, 18);
+  border-radius: 20px;
+}
+.header-container {
+  color: azure;
+  max-width: 600px;
+  padding: 0 25px;
+}
+.header-container h1 {
+  font-size: 60px;
+}
+
+/* link button style */
+.link-button {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-image: linear-gradient(rgb(232, 25, 25), rgb(231, 46, 46));
+  color: white;
+  border-radius: 10px;
+}
